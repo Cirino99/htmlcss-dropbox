@@ -19,6 +19,12 @@ body {
     color: white;
     font-weight: 500;
 }
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
 
 /* header */
 header nav{
@@ -28,7 +34,7 @@ header nav{
     position: fixed;
     top: 0;
     left: 0;
-    padding: 30px 20px;
+    padding: 25px 20px;
     z-index: 100;
     border-bottom: solid 1px #d0d0d3;
 }
@@ -47,16 +53,7 @@ header ul li a {
     font-size: 18px;
 }
 header #navlog {
-    float: left;
     margin-right: 40px;
-}
-header #navsx {
-    float: left;
-    height: 100%;
-}
-header #navdx {
-    height: 100%;
-    float: right;
 }
 
 /* main */
@@ -81,7 +78,6 @@ main #jumbotron h1 {
     padding-bottom: 50px;
 }
 main #jumbotron .coltext {
-    float: left;
     width: 30%;
 }
 main #jumbotron .coltext p {
@@ -101,7 +97,6 @@ main #jumbotron .coltext #arrow-down {
     display: block;
 }
 main #jumbotron .colimg {
-    float: right;
     width: calc(70% - 80px);
     margin-left: 80px;
 }
@@ -112,10 +107,8 @@ main #jumbotron .colimg img {
 
 /* prezzi */
 main #secprezzi .container {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
-    /* debug */
-    height: 700px;
 }
 main #secprezzi h2 {
     padding-top: 250px;
@@ -149,4 +142,91 @@ main #secprezzi #fatturazione .check2::before {
     background-color: white;
     vertical-align: middle;
     margin-right: 5px;
+}
+main #secprezzi .scheda-prezzo {
+    width:  calc((100% - 120px) / 3);
+    margin: 50px 0;
+}
+main #secprezzi .center {
+    margin: 50px 60px;
+}
+main #secprezzi .scheda-titolare {
+    border: solid 1px #d0d0d3;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+}
+main #secprezzi .scheda-prezzo .scheda-caratteristiche {
+    border-bottom: solid 1px #d0d0d3;
+    border-left: solid 1px #d0d0d3;
+    border-right: solid 1px #d0d0d3;
+    width: 100%;
+    padding: 30px 25px;
+    height: 1100px;
+}
+main #secprezzi .scheda-caratteristiche .tipo-abbonamento h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+main #secprezzi .scheda-caratteristiche .tipo-abbonamento strong {
+    font-size: 17px;
+}
+main #secprezzi .scheda-prezzo .scheda-caratteristiche .tipo-abbonamento div {
+    margin-bottom: 20px;
+}
+main #secprezzi .scheda-prezzo .scheda-caratteristiche .tipo-abbonamento .time {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: block;
+    color: gray;
+}
+main #secprezzi .scheda-prezzo .scheda-caratteristiche .tipo-abbonamento .text {
+    width: calc(100% - 20px);
+    padding-left: 5px;
+    margin-bottom: 0;
+}
+main #secprezzi .scheda-prezzo .scheda-caratteristiche .tipo-abbonamento div a {
+    color: #0061ff;
+}
+main #secprezzi .scheda-prezzo .scheda-caratteristiche .tipo-abbonamento div .button {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+main #secprezzi .scheda-prezzo .scheda-caratteristiche .tipo-abbonamento div span {
+    border-bottom: solid 1px #d0d0d3;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+main #secprezzi .scheda-prezzo .scheda-caratteristiche .tipo-abbonamento div h4 {
+    padding-top: 30px;
+}
+main #secprezzi .scheda-prezzo .scheda-caratteristiche .tipo-abbonamento .blu {
+    color: #0061ff;
+}
+main #secprezzi .enterprice {
+    width: 100%;
+}
+main #secprezzi .enterprice .scheda-caratteristiche {
+    border-bottom: solid 1px #d0d0d3;
+    border-left: solid 1px #d0d0d3;
+    border-right: solid 1px #d0d0d3;
+    width: 100%;
+    padding: 30px 25px;
+}
+main #secprezzi .enterprice .scheda-caratteristiche .tipo-abbonamento {
+    width: 70%;
+}
+main #secprezzi .enterprice .scheda-caratteristiche .tipo-abbonamento h4 {
+    padding-bottom: 30px;
+}
+main #secprezzi .enterprice #ufficio-vendite {
+    width: 30%;
+}
+main #secprezzi .enterprice .scheda-caratteristiche #ufficio-vendite .button {
+    width: 100%;
+    text-align: center;
 }
