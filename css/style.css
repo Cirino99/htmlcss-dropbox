@@ -109,3 +109,44 @@ main #jumbotron .colimg img {
     width: 90%;
     height: auto;
 }
+
+/* prezzi */
+main #secprezzi .container {
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    height: 700px;
+}
+main #secprezzi h2 {
+    padding-top: 250px;
+    padding-bottom: 80px;
+    font-size: 45px;
+}
+main #secprezzi #fatturazione span {
+    margin-right: 20px;
+}
+main #secprezzi #fatturazione span:hover{
+    cursor: pointer;
+}
+main #secprezzi #fatturazione .check::before {
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: solid 6px #0061ff;
+    background-color: white;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+main #secprezzi #fatturazione .check2::before {
+    content: "";
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: solid 1px #d0d0d3;
+    background-color: white;
+    vertical-align: middle;
+    margin-right: 5px;
+}
