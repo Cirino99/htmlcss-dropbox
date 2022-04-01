@@ -291,7 +291,8 @@ main #operazioni .scheda-operazioni img {
 }
 main #operazioni .scheda-operazioni p {
     font-weight: 500;
-    line-height: 24px;
+    line-height: 26px;
+    font-size: 18px;
 }
 main #operazioni .scheda-operazioni p a {
     color: black;
