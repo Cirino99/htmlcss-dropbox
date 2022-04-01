@@ -306,28 +306,77 @@ main #team a {
     font-weight: 500;
     color: #0061ff;
 }
-main #team .quadrato-contenitore {
+#main #team #elenco-team{
+    background-color: #f5f5f5;
+}
+main #team #elenco-team .quadrato-contenitore {
     width: 30%;
+    margin-top: 50px;
 }
-main #team .quadrato-contenitore .quadrato {
+main #team #elenco-team .quadrato-contenitore .quadrato {
     width: 50%;
-    border: solid 1px black;
     position: relative;
-    /* debug */
-    background-color: red;
 }
-main #team .quadrato-contenitore .quadrato::before {
+main #team #elenco-team .quadrato-contenitore #primo-quadrato {
+    background-color: #a2d39b;
+}
+main #team #elenco-team .quadrato-contenitore #secondo-quadrato {
+    background-color: #61082b;
+}
+main #team #elenco-team .quadrato-contenitore #terzo-quadrato {
+    background-color: #0093ce;
+}
+main #team #elenco-team .quadrato-contenitore #quarto-quadrato {
+    background-color: #ff1c1c;
+}
+main #team #elenco-team .quadrato-contenitore #quinto-quadrato {
+    background-color: #d5001f;
+}
+main #team #elenco-team .quadrato-contenitore #sesto-quadrato {
+    background-color: #b4d0e7;
+}
+main #team #elenco-team .quadrato-contenitore #settimo-quadrato {
+    background-color: #0d2481;
+}
+main #team #elenco-team .quadrato-contenitore #ottavo-quadrato {
+    background-color: #ffd830;
+}
+main #team #elenco-team .quadrato-contenitore .quadrato::before {
     content: "";
     display: block;
     padding-top: 100%;
 }
-main #team .quadrato-contenitore .quadrato img {
+main #team #elenco-team .quadrato-contenitore .quadrato img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 70%; 
 }
-main #team .text {
+main #team #elenco-team .text {
     width: 40%;
+    margin-top: 50px;
+    padding: 50px;
+}
+main #team #elenco-team .text img {
+    width: 200px;
+    height: auto;
+}
+main #team #elenco-team .text hr {
+    width: 60px;
+    color: #d0d0d3;
+    opacity: 40%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+main #team #elenco-team .text p {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+main #team #elenco-team .text span {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 18px;
 }
