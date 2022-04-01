@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -73,6 +76,10 @@ header #navlist2{
 /* main */
 main {
     padding-top: 80px;
+}
+main .titolo-float {
+    font-size: 28px;
+    padding-bottom: 20px;
 }
 
 /* jumbotron */
@@ -179,10 +186,6 @@ main #secprezzi .scheda-prezzo .scheda-caratteristiche {
     padding: 30px 25px;
     height: 1100px;
 }
-main #secprezzi .scheda-caratteristiche .tipo-abbonamento h3 {
-    font-size: 25px;
-    padding-bottom: 15px;
-}
 main #secprezzi .scheda-caratteristiche .tipo-abbonamento strong {
     font-size: 17px;
 }
@@ -243,4 +246,36 @@ main #secprezzi .enterprice #ufficio-vendite {
 main #secprezzi .enterprice .scheda-caratteristiche #ufficio-vendite .button {
     width: 100%;
     text-align: center;
+}
+
+/* partner */
+main #partner {
+    padding-top: 200px;
+}
+main #partner .container {
+    width: 65%;
+    margin: 0 auto;
+}
+main #partner .colimg {
+    width: 55%;
+}
+main #partner .colimg img {
+    width: 100%;
+    height: auto;
+}
+main #partner .coltext {
+    width: 45%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+main #partner .coltext p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+main #partner .coltext .button {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
 }
