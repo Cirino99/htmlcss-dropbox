@@ -403,3 +403,39 @@ main #azienda .float-right .button {
     color: black;
     padding: 10px 70px;
 }
+
+/* domande frequenti */
+main #domande-frequenti {
+    margin-bottom: 120px;
+}
+main #domande-frequenti .titolo-sezione {
+    font-size: 38px;
+}
+main #domande-frequenti hr {
+    color: #d0d0d3;
+    opacity: 50%;
+}
+main #domande-frequenti .float-left {
+    width: 95%;
+    margin: 30px 0;
+}
+main #domande-frequenti .float-right {
+    width: 5%;
+    margin: 30px 0;
+}
+main #domande-frequenti .risposta-domande {
+    display: none;
+    margin: 30px 0;
+}
+main #domande-frequenti #prima-domanda:hover + #prima-risposta{
+    display: block;
+}
+main #domande-frequenti #seconda-domanda:hover + #seconda-risposta{
+    display: block;
+}
+main #domande-frequenti #terza-domanda:hover + #terza-risposta{
+    display: block;
+}
+main #domande-frequenti #quarta-domanda:hover + #quarta-risposta{
+    display: block;
+}
