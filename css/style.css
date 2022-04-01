@@ -297,3 +297,37 @@ main #operazioni .scheda-operazioni p {
 main #operazioni .scheda-operazioni p a {
     color: black;
 }
+
+/* team */
+main #team .titolo-sezione {
+    margin-bottom: 40px;
+}
+main #team a {
+    font-weight: 500;
+    color: #0061ff;
+}
+main #team .quadrato-contenitore {
+    width: 30%;
+}
+main #team .quadrato-contenitore .quadrato {
+    width: 50%;
+    border: solid 1px black;
+    position: relative;
+    /* debug */
+    background-color: red;
+}
+main #team .quadrato-contenitore .quadrato::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+main #team .quadrato-contenitore .quadrato img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+main #team .text {
+    width: 40%;
+}
