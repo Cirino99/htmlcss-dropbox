@@ -7,7 +7,7 @@
     <!-- libreria Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <!-- libreria icone -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style-try.css">
@@ -75,18 +75,99 @@
                 <section class="float-right" id="form">
                     <h3>Crea un account <span>oppure <a href="">utilizza un Dropbox esistente</a>.</span></h3>
                     <form action="">
-                        <div id="riga1">
-                            <input type="text" name="nome" placeholder="Nome" required>
-                            <input type="text" name="cognome" placeholder="Cognome" required>
+                        <div class="row">
+                            <div class="float-left form-row">
+                                <input class="input" type="text" name="nome" placeholder="Nome" required>
+                            </div>
+                            <div class="float-right form-row">
+                                <input class="input" type="text" name="cognome" placeholder="Cognome" required>
+                            </div>
                         </div>
-                        <div id="riga2">
-                            <input type="email" name="email" placeholder="Email" required>
-                            <input type="password" name="password" placeholder="Password" required>
+                        <div class="row">
+                            <div class="float-left form-row">
+                                <input class="input" type="email" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="float-right form-row">
+                                <input class="input" type="password" name="password" placeholder="Password" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <input class="input" type="text" name="team" placeholder="Nome del team" required>
+                        </div>
+                        <div class="form-row">
+                            <select class="input" name="paese" id="">
+                                <option value="">Italia</option>
+                                <option value="">Germania</option>
+                                <option value="">Francia</option>
+                                <option value="">Spagna</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <span>- oppure -</span>
+                        </div>
+                        <div class="form-row">
+                            <a class="button" href=""><i class="fab fa-google"></i> Iscriviti con Google</a>
+                        </div>
+                        <div class="form-row">
+                            <section id="piano">
+                                <h3>Scegli un piano di prova</h3>
+                                <div class="tipo-piano">
+                                    <div class="row">
+                                        <div class="float-left radio">
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="float-left text">
+                                            <span>Standard</span>
+                                            <p>5 TB di spazio con strumenti di collaborazione e gestione del team facili da utilizzare.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tipo-piano">
+                                    <div class="row">
+                                        <div class="float-left radio">
+                                            <span class="check2"></span>
+                                        </div>
+                                        <div class="float-left text">
+                                            <span>Advanced</span>
+                                            <p>Tutto lo spazio di cui ha bisogno il tuo team con funzionalità di amministrazione, controllo, sicurezza e integrazione sofisticate.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="form-row">
+                            <div class="termini-condizioni">
+                                <div class="row">
+                                    <div class="float-left radio">
+                                        <input type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="float-left text">
+                                        <span>Accetto il <a href="">Contratto</a> e i <a href="">Termini</a> di Dropbox Business. Scopri come utilizziamo e proteggiamo i tuoi dati nelle nostre <a href="">Norme sulla privacy</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="termini-condizioni">
+                                <div class="row">
+                                    <div class="float-left radio">
+                                        <input type="checkbox" name="" id="">
+                                    </div>
+                                    <div class="float-left text">
+                                        <span>Vorrei ricevere gli aggiornamenti via email da Dropbox relativi al marketing diretto</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <input class="button" id="submit" type="submit" value="Invia">
+                            <span>Carta di credito non necessaria</span>
                         </div>
                     </form>
                 </section>
             </div>
         </div>
     </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>

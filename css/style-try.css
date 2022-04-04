@@ -17,14 +17,6 @@ body {
 .button {
     display: inline-block;
     text-decoration: none;
-    padding: 10px 25px;
-    background-color: #0061ff;
-    color: white;
-    font-weight: 500;
-}
-.button:hover {
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-    text-decoration: none;
 }
 .float-left {
     float: left;
@@ -160,4 +152,103 @@ main #form h3 {
 main #form h3 span {
     font-size: 14px;
     padding-left: 10px;
+}
+main #form .form-row {
+    margin-top: 25px;
+    text-align: center;
+}
+main #form .float-left {
+    width: 50%;
+    padding-right: 15px;
+}
+main #form .float-right {
+    width: 50%;
+    padding-left: 15px;
+}
+main #form .input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: solid 1px #d0d0d3;
+    background-color: white;
+}
+main #form .button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: solid 1px #d0d0d3;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+}
+main #form .button:hover {
+    background-color: #f2f2f2;
+}
+main #form #piano {
+    text-align: left;
+}
+main #form #piano .tipo-piano {
+    margin-top: 25px;
+    border: solid 1px #d0d0d3;
+    border-radius: 5px;
+    padding-right: 30px;
+}
+main #form #piano .radio {
+    width: 8%;
+    padding: 10px;
+}
+main #form #piano .radio .check::before {
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid 5px #0061ff;
+    background-color: white;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+main #form #piano .radio .check2::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid 1px #d0d0d3;
+    background-color: white;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+main #form #piano .tipo-piano .text {
+    width: calc(92% - 20px);
+    margin-left: 20px;
+    padding: 10px 0;
+}
+main #form #piano .tipo-piano .text p {
+    color: #47525d;
+    font-size: 14px;
+    margin-top: 8px;
+}
+main #form .termini-condizioni {
+    margin-top: 25px;
+    text-align: left;
+    font-weight: 300;
+}
+main #form .termini-condizioni .radio {
+    width: 5%;
+    padding: 10px;
+}
+main #form .termini-condizioni .text{
+    width: calc(95% - 10px);
+    margin-left: 10px;
+    padding: 10px 0;
+}
+main #form .termini-condizioni .text a {
+    font-weight: 400;
+}
+main #form #submit {
+    background-color: #0070e0;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
