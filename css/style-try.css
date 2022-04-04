@@ -85,6 +85,7 @@ header #hormenu {
     bottom : -120px;
     left: -10px;
     text-align: center;
+    border: solid 1px #d0d0d3;
 }
 header #hormenu ul li{
     display: block;
@@ -98,8 +99,65 @@ header #hormenu ul li a {
 /* main */
 main {
     padding-top: 80px;
+    background-color: #fafbfc;
+}
+main a {
+    text-decoration: none;
+    color: #007ee5;
+    font-weight: 700;
 }
 main .container {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
+}
+
+/* descrizione prova gratuita */
+main #descrizione {
+    width: 50%;
+    margin-top: 100px;
+    padding-right: 40px;
+}
+main #descrizione h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+main #descrizione span {
+    font-size: 14px;
+}
+main #descrizione #incluso-pg {
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #47525d;
+    border-top: solid 1px #d0d0d3;
+}
+main #descrizione #incluso-pg h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+main #descrizione #incluso-pg ul {
+    list-style-type: none;
+}
+main #descrizione #incluso-pg ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+main #descrizione #incluso-pg ul li i {
+    color: #007ee5;
+    padding-right: 10px;
+}
+
+/* form */
+main #form {
+    width: 50%;
+    margin-top: 100px;
+}
+main #form h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+main #form h3 span {
+    font-size: 14px;
+    padding-left: 10px;
 }
