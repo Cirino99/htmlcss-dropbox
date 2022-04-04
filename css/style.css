@@ -46,16 +46,15 @@ header nav{
 }
 header ul {
     list-style-type: none;
-    display: inline;
 }
 header ul li {
     display: inline;
-    margin-right: 40px;
+    margin-right: 40px; 
+    position: relative;
 }
 header ul li a {
     text-decoration: none;
     color: black;
-    display: inline;
     font-size: 18px;
 }
 header ul li a:hover {
@@ -79,7 +78,34 @@ header #navlist2{
     height: 100%;
     padding: 17px 20px;
 }
-
+header #supporto-hormenu:hover + #hormenu{
+    display: block;
+}
+header #hormenu:hover{
+    display: block;
+}
+header #hormenu {
+    display: none;
+    height: 120px;
+    width: 200px;
+    padding-top: 15px;
+    background-color: white;
+    position: absolute;
+    bottom : -120px;
+    left: -10px;
+    text-align: center;
+}
+header #hormenu ul {
+    list-style-type: circle;
+}
+header #hormenu ul li{
+    display: block;
+    padding-top: 20px;
+    margin: 0;
+}
+header #hormenu ul li a {
+    font-size: 16px;
+}
 /* main */
 main {
     padding-top: 80px;
