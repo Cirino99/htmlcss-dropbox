@@ -218,7 +218,7 @@ main #secprezzi .scheda-prezzo .scheda-caratteristiche {
     border-right: solid 1px #d0d0d3;
     width: 100%;
     padding: 30px 25px;
-    height: 1100px;
+    min-height: 1100px;
 }
 main #secprezzi .scheda-caratteristiche .tipo-abbonamento strong {
     font-size: 17px;
