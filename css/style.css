@@ -306,12 +306,12 @@ main #team a {
     font-weight: 500;
     color: #0061ff;
 }
-#main #team #elenco-team{
+main #team #elenco-team{
     background-color: #f5f5f5;
+    margin-top: 50px;
 }
 main #team #elenco-team .quadrato-contenitore {
     width: 30%;
-    margin-top: 50px;
 }
 main #team #elenco-team .quadrato-contenitore .quadrato {
     width: 50%;
@@ -356,7 +356,6 @@ main #team #elenco-team .quadrato-contenitore .quadrato img {
 }
 main #team #elenco-team .text {
     width: 40%;
-    margin-top: 50px;
     padding: 50px;
 }
 main #team #elenco-team .text img {
